@@ -52,11 +52,13 @@ resetButton.addEventListener("click", function() {
    // Change colorDisplay to match picked Color
    colorDisplay.textContent = pickedColor;
 
+   messageDisplay.textContent = "";
+
    // Change colors of squares.
    for(var i = 0; i < squares.length; i++) {
        squares[i].style.background = colors[i];
    }
-   h1.style.backgroundColor = "#232323";
+   h1.style.backgroundColor = "steelblue";
 });
 
 colorDisplay.textContent = pickedColor;
