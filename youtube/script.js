@@ -87,6 +87,7 @@ function checkTie() {
         declareWinner("Tie Game!")
         return true;
     }
+    return false;
 }
 
 function minimax (newBoard, player) {
